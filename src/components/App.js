@@ -2,7 +2,7 @@ import Pokedex from './Pokedex';
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <Pokedex />
     </div>
   );
