@@ -15,7 +15,8 @@ const pokemonTypeToClassname = {
     Dragon: "badge rounded-pill badge-dragon mx-1",
     Dark: "badge rounded-pill badge-dark mx-1",
     Unknown: "badge rounded-pill badge-unknown mx-1",
-    Shadow: "badge rounded-pill badge-shadow mx-1"
+    Shadow: "badge rounded-pill badge-shadow mx-1",
+    Bug: "badge rounded-pill badge-bug mx-1"
 };
   
 export default pokemonTypeToClassname;

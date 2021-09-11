@@ -12,7 +12,7 @@ const Pokecard = (props) => {
     return(
         <div className="col-lg-3 col-md-4 col-sm-12">
             <div className="card Pokecard">
-                <img src={props.img} alt={props.name} className="card-img-top"/>
+                <img src={props.img} alt={props.name} className="card-img-top Pokecard-img"/>
                 <div className="card-body">
                     <h5 className="card-title text-center">{props.name}</h5>
                     <p className="card-text text-center">{renderTypes()}</p>
